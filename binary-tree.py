@@ -19,7 +19,6 @@ class Node:
     def order_children(self):
         if self.prev:
             self.prev.order_children()
-        print(self.data)
         if self.next:
             self.next.order_children()
 
